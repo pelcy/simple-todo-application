@@ -14,7 +14,7 @@ let tasks = [
  * 注) 登録ボタンを押したときに、この関数が呼ばれる処理は既に書かれています。
  * 
  */
-let titile_name = document.getElementsById("todo-title-filed")
+let title_name = document.getElementsById("todo-title-filed")
 
 function addTask(title) {
     const task = { isDone: false }
