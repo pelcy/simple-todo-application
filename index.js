@@ -14,11 +14,10 @@ let tasks = [
  * 注) 登録ボタンを押したときに、この関数が呼ばれる処理は既に書かれています。
  * 
  */
-let title_name = document.getElementsById("todo-title-filed")
 
 function addTask(title) {
     const task = { isDone: false }
-
+    const title_name = document.getElementsById("todo-title-filed")
     // やることのタイトルを設定(このままだと、すべてのタイトルがHello Worldになってしまう！)
     task.title = title_name
 
